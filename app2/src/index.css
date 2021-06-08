@@ -1,0 +1,25 @@
+.book img {
+  min-height: 100px;
+  width: 200px;
+}
+
+.book {
+  border: black solid 1px;
+  display: inline-block;
+  padding: 30px;
+  background-color: white;
+}
+
+.booklist {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .booklist {
+    grid-template-columns: repeat(3, 1fr);
+    /* align-items: start; */
+  }
+}

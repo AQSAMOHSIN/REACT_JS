@@ -1,0 +1,24 @@
+ul li {
+  list-style: none;
+  /* height: 40px; */
+  display: flex;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 30px;
+  background-color: white;
+  display: inline-block;
+}
+ul {
+  display: flexbox;
+  /* flex-wrap: nowrap; */
+}
+ul li img {
+  border-radius: 300px;
+  width: 4rem;
+}
+ul div {
+  padding: 10px;
+}
+body {
+  background-color: pink;
+}
